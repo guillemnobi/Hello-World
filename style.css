@@ -1,4 +1,10 @@
-.title {
-  font-size: 45px;
-  color: blue;
+body {
+  font-size: 20px;
+  display: block;
+}
+
+button2 {
+  font-size: 30px;
+  border: 2px solid green;
+  font-weight: 3rem;
 }

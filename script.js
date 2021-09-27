@@ -18,6 +18,15 @@ const goodbye = React.createElement(
   'GoodBye World!' // children
 );
 
+const clicked = React.createElement(
+  'button', // type
+  {
+    className: 'button',
+    onClick: (e) => {console.log("you clicked a button")},
+  }, // props
+  'Click Me' // children
+);
+
 ReactDOM.render(
   hello,
   document.getElementById('root')
@@ -26,6 +35,15 @@ ReactDOM.render(
   goodbye,
   document.getElementById('root2')
 );
-
-
-
+ReactDOM.render(
+  clicked,
+  document.getElementById('button')
+);
+ReactDOM.render(
+  clicked,
+  document.getElementById('button2')
+);
+ReactDOM.render(
+  clicked,
+  document.getElementById('button3')
+);
